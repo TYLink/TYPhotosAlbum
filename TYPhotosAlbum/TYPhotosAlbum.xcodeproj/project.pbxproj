@@ -48,6 +48,8 @@
 		5E314ABC1C9979870076DB82 /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314ABB1C9979870076DB82 /* CustomNavigationController.m */; };
 		5E314AC11C9979D80076DB82 /* UIButton+CommonButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314ABE1C9979D80076DB82 /* UIButton+CommonButton.m */; };
 		5E314AC21C9979D80076DB82 /* UIViewController+NavigationBarItemFlexiable.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314AC01C9979D80076DB82 /* UIViewController+NavigationBarItemFlexiable.m */; };
+		5E314AC61C997C7C0076DB82 /* SettingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314AC51C997C7C0076DB82 /* SettingLabel.m */; };
+		5E314AC91C99805A0076DB82 /* showPhotoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314AC81C99805A0076DB82 /* showPhotoVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -156,6 +158,10 @@
 		5E314ABE1C9979D80076DB82 /* UIButton+CommonButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CommonButton.m"; sourceTree = "<group>"; };
 		5E314ABF1C9979D80076DB82 /* UIViewController+NavigationBarItemFlexiable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NavigationBarItemFlexiable.h"; sourceTree = "<group>"; };
 		5E314AC01C9979D80076DB82 /* UIViewController+NavigationBarItemFlexiable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NavigationBarItemFlexiable.m"; sourceTree = "<group>"; };
+		5E314AC41C997C7C0076DB82 /* SettingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingLabel.h; sourceTree = "<group>"; };
+		5E314AC51C997C7C0076DB82 /* SettingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingLabel.m; sourceTree = "<group>"; };
+		5E314AC71C99805A0076DB82 /* showPhotoVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showPhotoVC.h; sourceTree = "<group>"; };
+		5E314AC81C99805A0076DB82 /* showPhotoVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showPhotoVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +192,7 @@
 		5E314A031C9974300076DB82 = {
 			isa = PBXGroup;
 			children = (
+				5E314AC31C997C7C0076DB82 /* SettingLabel */,
 				5E314AAC1C9978790076DB82 /* UIKit */,
 				5E314A8B1C9978340076DB82 /* Masonry */,
 				5E314A431C9977B90076DB82 /* TYPhotoVCSubViews */,
@@ -213,6 +220,8 @@
 				5E314A131C9974300076DB82 /* AppDelegate.m */,
 				5E314A151C9974300076DB82 /* ViewController.h */,
 				5E314A161C9974300076DB82 /* ViewController.m */,
+				5E314AC71C99805A0076DB82 /* showPhotoVC.h */,
+				5E314AC81C99805A0076DB82 /* showPhotoVC.m */,
 				5E314A181C9974300076DB82 /* Main.storyboard */,
 				5E314A1B1C9974300076DB82 /* Assets.xcassets */,
 				5E314A1D1C9974300076DB82 /* LaunchScreen.storyboard */,
@@ -413,6 +422,15 @@
 			path = UIKit;
 			sourceTree = "<group>";
 		};
+		5E314AC31C997C7C0076DB82 /* SettingLabel */ = {
+			isa = PBXGroup;
+			children = (
+				5E314AC41C997C7C0076DB82 /* SettingLabel.h */,
+				5E314AC51C997C7C0076DB82 /* SettingLabel.m */,
+			);
+			path = SettingLabel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -551,6 +569,7 @@
 				5E314A171C9974300076DB82 /* ViewController.m in Sources */,
 				5E314A7A1C9977B90076DB82 /* UIImage+Resize.m in Sources */,
 				5E314A881C9977B90076DB82 /* TYPhotoAlbumPhotoKitView.m in Sources */,
+				5E314AC61C997C7C0076DB82 /* SettingLabel.m in Sources */,
 				5E314A7C1C9977B90076DB82 /* DCCrossHairView.m in Sources */,
 				5E314AB71C9978790076DB82 /* UIColor+Extension.m in Sources */,
 				5E314AA61C9978340076DB82 /* MASLayoutConstraint.m in Sources */,
@@ -561,6 +580,7 @@
 				5E314AA41C9978340076DB82 /* MASConstraint.m in Sources */,
 				5E314A7B1C9977B90076DB82 /* SCCommon.m in Sources */,
 				5E314AA81C9978340076DB82 /* MASViewConstraint.m in Sources */,
+				5E314AC91C99805A0076DB82 /* showPhotoVC.m in Sources */,
 				5E314A791C9977B90076DB82 /* SCSlider.m in Sources */,
 				5E314ABC1C9979870076DB82 /* CustomNavigationController.m in Sources */,
 				5E314A841C9977B90076DB82 /* TYimageCropView.m in Sources */,

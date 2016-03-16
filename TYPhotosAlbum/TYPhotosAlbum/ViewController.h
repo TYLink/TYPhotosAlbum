@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AssetsLibrary/AssetsLibrary.h>
 
 @interface ViewController : UIViewController
+
+@property (nonatomic, strong)        ALAssetsLibrary    * library;
+@property (nonatomic, strong)        NSMutableArray     * AlassetArray ;
+
+@property (nonatomic, strong)        NSString           * CameraType;
 
 
 @end

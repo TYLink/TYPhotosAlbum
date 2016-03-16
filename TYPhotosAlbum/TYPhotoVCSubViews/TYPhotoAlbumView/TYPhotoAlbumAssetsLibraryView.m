@@ -18,7 +18,6 @@
 #define idenfierCommon @"TYPhotoAlbum_PicCell"
 #define lineSpacing  6.0
 
-
 @interface TYPhotoAlbumAssetsLibraryView () <UICollectionViewDataSource>
 
 

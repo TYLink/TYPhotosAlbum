@@ -10,6 +10,7 @@
 #import "TYPhotosAlbumView.h"
 #import "TYPhotoAlbum_CameraCell.h"
 #import "TYPhotoAlbum_PicCell.h"
+#import "showPhotoVC.h"
 
 
 #define lineSpacing  6.0
@@ -144,21 +145,11 @@
 #pragma mark - SCNavigationController delegate
 // 拍照完成之后的动作
 - (void)didTakePicture:(SCNavigationController *)navigationController image:(UIImage *)image {
-    if ([_CameraType isEqualToString:@"HeaderImage"]) {
-        if (self.returnCameraImageBlock != nil) {
-            self.returnCameraImageBlock(image);
-        }
-        [navigationController dismissViewControllerAnimated:YES completion:^{
-            [[self  viewController] dismissViewControllerAnimated:YES completion:nil];
-        }];
-    }else if ([_CameraType isEqualToString:@"ReleaseImage"]){
-        
-        NSLog(@"拍照完");
-        
-//        ReleaseImageViewController *releaseImageVC = [[ReleaseImageViewController alloc] init];
-//        releaseImageVC.headerImage = image;
-//        [navigationController pushViewController:releaseImageVC animated:YES];
-    }
+   
+    showPhotoVC * ReleaseImageVC = [[showPhotoVC alloc] init];
+    ReleaseImageVC.headerImage = image;
+    [navigationController pushViewController:ReleaseImageVC animated:YES];
+    
 }
 
 
