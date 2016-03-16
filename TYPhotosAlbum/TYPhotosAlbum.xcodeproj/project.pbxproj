@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E314A111C9974300076DB82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314A101C9974300076DB82 /* main.m */; };
+		5E314A141C9974300076DB82 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314A131C9974300076DB82 /* AppDelegate.m */; };
+		5E314A171C9974300076DB82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314A161C9974300076DB82 /* ViewController.m */; };
+		5E314A1A1C9974300076DB82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E314A181C9974300076DB82 /* Main.storyboard */; };
+		5E314A1C1C9974300076DB82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E314A1B1C9974300076DB82 /* Assets.xcassets */; };
+		5E314A1F1C9974300076DB82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E314A1D1C9974300076DB82 /* LaunchScreen.storyboard */; };
+		5E314A2A1C9974300076DB82 /* TYPhotosAlbumTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314A291C9974300076DB82 /* TYPhotosAlbumTests.m */; };
+		5E314A351C9974300076DB82 /* TYPhotosAlbumUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E314A341C9974300076DB82 /* TYPhotosAlbumUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E314A261C9974300076DB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E314A041C9974300076DB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E314A0B1C9974300076DB82;
+			remoteInfo = TYPhotosAlbum;
+		};
+		5E314A311C9974300076DB82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E314A041C9974300076DB82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E314A0B1C9974300076DB82;
+			remoteInfo = TYPhotosAlbum;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E314A0C1C9974300076DB82 /* TYPhotosAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYPhotosAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E314A101C9974300076DB82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E314A121C9974300076DB82 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5E314A131C9974300076DB82 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5E314A151C9974300076DB82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5E314A161C9974300076DB82 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5E314A191C9974300076DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E314A1B1C9974300076DB82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E314A1E1C9974300076DB82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E314A201C9974300076DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E314A251C9974300076DB82 /* TYPhotosAlbumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYPhotosAlbumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E314A291C9974300076DB82 /* TYPhotosAlbumTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPhotosAlbumTests.m; sourceTree = "<group>"; };
+		5E314A2B1C9974300076DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E314A301C9974300076DB82 /* TYPhotosAlbumUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYPhotosAlbumUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E314A341C9974300076DB82 /* TYPhotosAlbumUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYPhotosAlbumUITests.m; sourceTree = "<group>"; };
+		5E314A361C9974300076DB82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E314A091C9974300076DB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E314A221C9974300076DB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E314A2D1C9974300076DB82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E314A031C9974300076DB82 = {
+			isa = PBXGroup;
+			children = (
+				5E314A0E1C9974300076DB82 /* TYPhotosAlbum */,
+				5E314A281C9974300076DB82 /* TYPhotosAlbumTests */,
+				5E314A331C9974300076DB82 /* TYPhotosAlbumUITests */,
+				5E314A0D1C9974300076DB82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E314A0D1C9974300076DB82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E314A0C1C9974300076DB82 /* TYPhotosAlbum.app */,
+				5E314A251C9974300076DB82 /* TYPhotosAlbumTests.xctest */,
+				5E314A301C9974300076DB82 /* TYPhotosAlbumUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E314A0E1C9974300076DB82 /* TYPhotosAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				5E314A121C9974300076DB82 /* AppDelegate.h */,
+				5E314A131C9974300076DB82 /* AppDelegate.m */,
+				5E314A151C9974300076DB82 /* ViewController.h */,
+				5E314A161C9974300076DB82 /* ViewController.m */,
+				5E314A181C9974300076DB82 /* Main.storyboard */,
+				5E314A1B1C9974300076DB82 /* Assets.xcassets */,
+				5E314A1D1C9974300076DB82 /* LaunchScreen.storyboard */,
+				5E314A201C9974300076DB82 /* Info.plist */,
+				5E314A0F1C9974300076DB82 /* Supporting Files */,
+			);
+			path = TYPhotosAlbum;
+			sourceTree = "<group>";
+		};
+		5E314A0F1C9974300076DB82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E314A101C9974300076DB82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5E314A281C9974300076DB82 /* TYPhotosAlbumTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E314A291C9974300076DB82 /* TYPhotosAlbumTests.m */,
+				5E314A2B1C9974300076DB82 /* Info.plist */,
+			);
+			path = TYPhotosAlbumTests;
+			sourceTree = "<group>";
+		};
+		5E314A331C9974300076DB82 /* TYPhotosAlbumUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E314A341C9974300076DB82 /* TYPhotosAlbumUITests.m */,
+				5E314A361C9974300076DB82 /* Info.plist */,
+			);
+			path = TYPhotosAlbumUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E314A0B1C9974300076DB82 /* TYPhotosAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E314A391C9974300076DB82 /* Build configuration list for PBXNativeTarget "TYPhotosAlbum" */;
+			buildPhases = (
+				5E314A081C9974300076DB82 /* Sources */,
+				5E314A091C9974300076DB82 /* Frameworks */,
+				5E314A0A1C9974300076DB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYPhotosAlbum;
+			productName = TYPhotosAlbum;
+			productReference = 5E314A0C1C9974300076DB82 /* TYPhotosAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E314A241C9974300076DB82 /* TYPhotosAlbumTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E314A3C1C9974300076DB82 /* Build configuration list for PBXNativeTarget "TYPhotosAlbumTests" */;
+			buildPhases = (
+				5E314A211C9974300076DB82 /* Sources */,
+				5E314A221C9974300076DB82 /* Frameworks */,
+				5E314A231C9974300076DB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E314A271C9974300076DB82 /* PBXTargetDependency */,
+			);
+			name = TYPhotosAlbumTests;
+			productName = TYPhotosAlbumTests;
+			productReference = 5E314A251C9974300076DB82 /* TYPhotosAlbumTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E314A2F1C9974300076DB82 /* TYPhotosAlbumUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E314A3F1C9974300076DB82 /* Build configuration list for PBXNativeTarget "TYPhotosAlbumUITests" */;
+			buildPhases = (
+				5E314A2C1C9974300076DB82 /* Sources */,
+				5E314A2D1C9974300076DB82 /* Frameworks */,
+				5E314A2E1C9974300076DB82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E314A321C9974300076DB82 /* PBXTargetDependency */,
+			);
+			name = TYPhotosAlbumUITests;
+			productName = TYPhotosAlbumUITests;
+			productReference = 5E314A301C9974300076DB82 /* TYPhotosAlbumUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E314A041C9974300076DB82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Tianyang;
+				TargetAttributes = {
+					5E314A0B1C9974300076DB82 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					5E314A241C9974300076DB82 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5E314A0B1C9974300076DB82;
+					};
+					5E314A2F1C9974300076DB82 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 5E314A0B1C9974300076DB82;
+					};
+				};
+			};
+			buildConfigurationList = 5E314A071C9974300076DB82 /* Build configuration list for PBXProject "TYPhotosAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E314A031C9974300076DB82;
+			productRefGroup = 5E314A0D1C9974300076DB82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E314A0B1C9974300076DB82 /* TYPhotosAlbum */,
+				5E314A241C9974300076DB82 /* TYPhotosAlbumTests */,
+				5E314A2F1C9974300076DB82 /* TYPhotosAlbumUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E314A0A1C9974300076DB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E314A1F1C9974300076DB82 /* LaunchScreen.storyboard in Resources */,
+				5E314A1C1C9974300076DB82 /* Assets.xcassets in Resources */,
+				5E314A1A1C9974300076DB82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E314A231C9974300076DB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E314A2E1C9974300076DB82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E314A081C9974300076DB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E314A171C9974300076DB82 /* ViewController.m in Sources */,
+				5E314A141C9974300076DB82 /* AppDelegate.m in Sources */,
+				5E314A111C9974300076DB82 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E314A211C9974300076DB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E314A2A1C9974300076DB82 /* TYPhotosAlbumTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E314A2C1C9974300076DB82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E314A351C9974300076DB82 /* TYPhotosAlbumUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E314A271C9974300076DB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E314A0B1C9974300076DB82 /* TYPhotosAlbum */;
+			targetProxy = 5E314A261C9974300076DB82 /* PBXContainerItemProxy */;
+		};
+		5E314A321C9974300076DB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E314A0B1C9974300076DB82 /* TYPhotosAlbum */;
+			targetProxy = 5E314A311C9974300076DB82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5E314A181C9974300076DB82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E314A191C9974300076DB82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E314A1D1C9974300076DB82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E314A1E1C9974300076DB82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5E314A371C9974300076DB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E314A381C9974300076DB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E314A3A1C9974300076DB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYPhotosAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYPhotosAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E314A3B1C9974300076DB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYPhotosAlbum/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYPhotosAlbum;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E314A3D1C9974300076DB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYPhotosAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYPhotosAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYPhotosAlbum.app/TYPhotosAlbum";
+			};
+			name = Debug;
+		};
+		5E314A3E1C9974300076DB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TYPhotosAlbumTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYPhotosAlbumTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYPhotosAlbum.app/TYPhotosAlbum";
+			};
+			name = Release;
+		};
+		5E314A401C9974300076DB82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYPhotosAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYPhotosAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYPhotosAlbum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		5E314A411C9974300076DB82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TYPhotosAlbumUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Momai.TYPhotosAlbumUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TYPhotosAlbum;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E314A071C9974300076DB82 /* Build configuration list for PBXProject "TYPhotosAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E314A371C9974300076DB82 /* Debug */,
+				5E314A381C9974300076DB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E314A391C9974300076DB82 /* Build configuration list for PBXNativeTarget "TYPhotosAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E314A3A1C9974300076DB82 /* Debug */,
+				5E314A3B1C9974300076DB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E314A3C1C9974300076DB82 /* Build configuration list for PBXNativeTarget "TYPhotosAlbumTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E314A3D1C9974300076DB82 /* Debug */,
+				5E314A3E1C9974300076DB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5E314A3F1C9974300076DB82 /* Build configuration list for PBXNativeTarget "TYPhotosAlbumUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E314A401C9974300076DB82 /* Debug */,
+				5E314A411C9974300076DB82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E314A041C9974300076DB82 /* Project object */;
+}
